@@ -1,6 +1,6 @@
 {
 	"name": "SmartDisplayRedux_Fixed",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"title": "Smart Display (circuit network signal display on map)",
 	"author": "Grandad_Sadbags",
 	"description": "A combinator that displays a signal from the circuit network, with formating options.",
