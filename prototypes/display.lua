@@ -4,7 +4,7 @@ data:extend(
     {
         type = "item",
         name = "smart-display-visible",
-		icon = "__SmartDisplayRedux__/graphics/smart-display-icon.png",
+		icon = "__SmartDisplayRedux_Fixed__/graphics/smart-display-icon.png",
         flags = {"goes-to-quickbar"},
 		subgroup = "circuit-network",
 		icon_size=32,
@@ -29,7 +29,7 @@ data:extend(
 	{
 		type = "lamp",
 		name =  "smart-display-visible",
-		icon = "__SmartDisplayRedux__/graphics/smart-display-icon.png",
+		icon = "__SmartDisplayRedux_Fixed__/graphics/smart-display-icon.png",
 		flags = {"placeable-neutral", "player-creation", "not-on-map"},
 		icon_size=32,
 		order = "y",
@@ -50,7 +50,7 @@ data:extend(
 		color = "",
 		picture_off =
 		{
-			filename = "__SmartDisplayRedux__/graphics/smart-display.png",
+			filename = "__SmartDisplayRedux_Fixed__/graphics/smart-display.png",
 			priority = "high",
 			width = 47,
 			height = 32,
@@ -61,7 +61,7 @@ data:extend(
 		},
 		picture_on =
 		{
-			filename = "__SmartDisplayRedux__/graphics/smart-display.png",
+			filename = "__SmartDisplayRedux_Fixed__/graphics/smart-display.png",
 			priority = "high",
 			width = 47,
 			height = 32,
@@ -95,17 +95,17 @@ local invisible = dupli_proto( "lamp", "smart-display-visible", "smart-display" 
 if invisible then
 	-- invisible.additional_pastable_entities = {"smart-display"}
 	invisible.minable.result = "smart-display-visible"
-	invisible.picture_off.filename = "__SmartDisplayRedux__/graphics/empty.png"
+	invisible.picture_off.filename = "__SmartDisplayRedux_Fixed__/graphics/empty.png"
 	invisible.picture_off.width = 0
 	invisible.picture_off.height = 0
-	invisible.picture_on.filename = "__SmartDisplayRedux__/graphics/empty.png"
+	invisible.picture_on.filename = "__SmartDisplayRedux_Fixed__/graphics/empty.png"
 	invisible.picture_on.width = 0
 	invisible.picture_on.height = 0
 end
 
 local mapmark_anim =
 {
-	filename = "__SmartDisplayRedux__/graphics/empty.png",
+	filename = "__SmartDisplayRedux_Fixed__/graphics/empty.png",
 	priority = "high",
 	width = 0,
 	height = 0,
@@ -209,7 +209,7 @@ local smallradar =
 	energy_usage = "0.1kW",
 	pictures =
 	{
-		filename = "__SmartDisplayRedux__/graphics/empty.png",
+		filename = "__SmartDisplayRedux_Fixed__/graphics/empty.png",
 		width = 0,
 		height = 0,
 		priority = "low",

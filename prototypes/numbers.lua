@@ -19,7 +19,7 @@ function add_font_with_scale( font_scale )
 				render_layer = "lower-object",
 				pictures =
 				{
-					filename = "__SmartDisplayRedux__/graphics/font-arial.png",
+					filename = "__SmartDisplayRedux_Fixed__/graphics/font-arial.png",
 					priority = "low",
 					tint = font_tint,
 					x = (asc%10) * font_width,
@@ -46,7 +46,7 @@ function add_font_with_scale( font_scale )
 			render_layer = "lower-object",
 			pictures =
 			{
-				filename = "__SmartDisplayRedux__/graphics/gunder.png",
+				filename = "__SmartDisplayRedux_Fixed__/graphics/gunder.png",
 				priority = "low",
 				x = font_width - under_width,
 				y = 0,
@@ -70,7 +70,7 @@ function add_font_with_scale( font_scale )
 			render_layer = "lower-object",
 			pictures =
 			{
-				filename = "__SmartDisplayRedux__/graphics/gunder.png",
+				filename = "__SmartDisplayRedux_Fixed__/graphics/gunder.png",
 				priority = "low",
 				x = font_width,
 				y = 0,
@@ -94,7 +94,7 @@ function add_font_with_scale( font_scale )
 			render_layer = "lower-object",
 			pictures =
 			{
-				filename = "__SmartDisplayRedux__/graphics/gunder.png",
+				filename = "__SmartDisplayRedux_Fixed__/graphics/gunder.png",
 				priority = "low",
 				x = font_width*2,
 				y = 0,
