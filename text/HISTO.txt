@@ -1,5 +1,5 @@
 ##VERSIONS:
-
+2.0		- factorio 1.0 compatible
 1.2.0   - factorio 0.16 compatible (made by roze), some features not working yet
 1.1.1   - fixed bug with names
 1.1.0   - factorio 0.15 compatible

@@ -5,7 +5,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "smart-display",
-		icon = "__SmartDisplayRedux_Fixed__/graphics/smart-displaying.png",
+		icon = "__FactorioSmartDisplay__/graphics/smart-displaying.png",
 		icon_size = 128,
 		effects =
 		{
@@ -20,8 +20,8 @@ data:extend(
 			count = 50,
 			ingredients =
 			{
-				{"science-pack-1", 1},
-				{"science-pack-2", 1}
+				{"automation-science-pack", 1},
+				{"logistic-science-pack", 1}
 			},
 			time = 30
 		},

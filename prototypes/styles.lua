@@ -29,7 +29,7 @@ data:extend(
 local spacing_right = 5
 local spacing_vertical = 3
 
-default_gui.smadisp_frame_style = 
+default_gui["smadisp_frame_style"] = 
 {
 	type="frame_style",
 	top_padding = spacing_vertical,
@@ -56,7 +56,7 @@ default_gui.smadisp_frame_style =
 	}
 }
 
-default_gui.smadisp_flow_style = 
+default_gui["smadisp_flow_style"] = 
 {
 	type = "horizontal_flow_style",
 	
@@ -76,7 +76,7 @@ default_gui.smadisp_flow_style =
 	graphical_set = { type = "none" },
 }
 
-default_gui.smadisp_vertical_flow_style = 
+default_gui["smadisp_vertical_flow_style"] = 
 {
 	type = "vertical_flow_style",
 	
@@ -96,7 +96,7 @@ default_gui.smadisp_vertical_flow_style =
 	graphical_set = { type = "none" },
 }
 
-default_gui.smadisp_progressbar_style = 
+default_gui["smadisp_progressbar_style"] = 
 {
 	type="progressbar_style",
 	parent="progressbar",
@@ -107,7 +107,7 @@ default_gui.smadisp_progressbar_style =
 	right_padding = spacing_right,
 }
 
-default_gui.smadisp_checkbox_style =
+default_gui["smadisp_checkbox_style"] =
 {
 	type="checkbox_style",
 	parent="checkbox",
@@ -118,7 +118,7 @@ default_gui.smadisp_checkbox_style =
 	right_padding = spacing_right,
 }
 
-default_gui.smadisp_button_style = 
+default_gui["smadisp_button_style"] = 
 {
 	type="button_style",
 	font="smadisp_font_bold",
@@ -138,7 +138,7 @@ default_gui.smadisp_button_style =
 	},
 }
 
-default_gui.smadisp_button_color_style = 
+default_gui["smadisp_button_color_style"] = 
 {
 	type="button_style",
 	font="smadisp_font_bold",
@@ -158,7 +158,7 @@ default_gui.smadisp_button_color_style =
 	},
 }
 
-default_gui.smadisp_label_style =
+default_gui["smadisp_label_style"] =
 {
 	type="label_style",
 	font="smadisp_font_bold",
@@ -173,9 +173,9 @@ default_gui.smadisp_label_style =
 	maximal_width = 100,
 }
 
-default_gui.smadisp_textfield_style =
+default_gui["smadisp_textfield_style"] =
 {
-    type = "textfield_style",
+	type = "textbox_style",
 	font="smadisp_font_bold",
 	align = "left",
     font_color = {},

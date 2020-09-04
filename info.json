@@ -1,10 +1,10 @@
 {
-	"name": "SmartDisplayRedux_Fixed",
-	"version": "1.2.2",
+	"name": "FactorioSmartDisplay",
+	"version": "2.0",
 	"title": "Smart Display (circuit network signal display on map)",
-	"author": "Grandad_Sadbags",
+	"author": "Grandad_Sadbags, Ko5h",
 	"description": "A combinator that displays a signal from the circuit network, with formating options.",
-	"homepage": "https://github.com/JakeStanger/FactorioSmartDisplay",
-	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=55814",
-	"factorio_version":"0.16"
+	"homepage": "https://github.com/ko5h/FactorioSmartDisplay",
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=30294",
+	"factorio_version":"1.0"
 }
